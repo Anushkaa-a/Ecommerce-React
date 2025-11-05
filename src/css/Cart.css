@@ -1,0 +1,27 @@
+.cart-container {
+  padding: 1rem;
+  text-align: center;
+  /* height: 90vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emptyCart-container img{
+    height: 400px;
+    width: 400px;
+}
+
+.cart-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: flex-start; 
+}
+
+@media (max-width: 460px){
+  .emptyCart-container img{
+    height: 150px;
+    width: 150px;
+  }
+}

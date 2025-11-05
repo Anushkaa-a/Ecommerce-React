@@ -1,0 +1,22 @@
+.wishlist-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0.8rem; */
+     text-align: center; 
+     padding: 10px 0px 20px 0px;
+}
+
+.emptyWl img{
+    height: 120px;
+    width: 120px;
+}
+
+.products{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: flex-start; 
+}
+
+
